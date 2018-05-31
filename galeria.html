@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+</head>
+
+<body>
+    <nav class="navbar sticky-top" style="background-color: #625e5e;">
+        <ul class="nav nav-pills ">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="omnie.html">O mnie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontak</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="row">
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal1">
+                        <img class="img-thumbnail border border-primary" src="https://i.ytimg.com/vi/LBlyJ_WSpi0/maxresdefault.jpg"
+                            alt="Chrono_Trigger">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal2">
+                        <img class="img-thumbnail border border-primary" src="https://www.eaglecreek.com/sites/default/files/blog/summer-music-festivals-2013-1439398394.jpg"
+                            alt="SMF_2013">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal3">
+                        <img class="img-thumbnail border border-primary" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Geek_Music_Show_-_Japan_Expo_2011_-_P1210123.jpg"
+                            alt="GMS_2011">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal4">
+                        <img class="img-thumbnail border border-primary" src="http://instamoz.com/images/328a6c858011544b19a249507cbceb01.jpg"
+                            alt="Model">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal5">
+                        <img class="img-thumbnail border border-primary" src="http://www.habegger-group.com/fileadmin/dateiablage/Keyvisuals/L2/L2-Music-Shows-Energy-stars-for-free-2014.jpg"
+                            alt="MSE_2014">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal6">
+                        <img class="img-thumbnail border border-primary" src="http://alivecampus.com/wp-content/uploads/2013/06/Screen-shot-2013-06-30-at-4.22.35-PM.png"
+                            alt="Alive_Campus">
+                    </a>
+                </div>
+                    <div class="col-sm-4">
+                        <a href="#" data-toggle="modal" data-target="#exampleModal7">
+                            <img class="img-thumbnail border border-primary" src="http://tranceattack.net/wordpress/wp-content/uploads/2017/09/Above-Beyond-live-at-Group-Therapy-250-16.09.2017-@-The-George-Amphitheatre-Washington-State-USA.jpg"
+                                alt="ABGT_250">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="container-fluid">
+
+    <div class="hidden">
+        <!-- Modal 1-->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="https://i.ytimg.com/vi/LBlyJ_WSpi0/maxresdefault.jpg" alt="Chrono_Trigger">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="modal fade" id="exampleModal2" tabindex="-2" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="https://www.eaglecreek.com/sites/default/files/blog/summer-music-festivals-2013-1439398394.jpg" alt="SMF_2013">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal fade" id="exampleModal3" tabindex="-3" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Geek_Music_Show_-_Japan_Expo_2011_-_P1210123.jpg" alt="GMS_2011">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4 -->
+        <div class="modal fade" id="exampleModal4" tabindex="-4" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="http://instamoz.com/images/328a6c858011544b19a249507cbceb01.jpg"
+                            alt="Model">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="modal fade" id="exampleModal5" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="http://www.habegger-group.com/fileadmin/dateiablage/Keyvisuals/L2/L2-Music-Shows-Energy-stars-for-free-2014.jpg"
+                            alt="Lhotse">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="modal fade" id="exampleModal6" tabindex="-6" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="http://alivecampus.com/wp-content/uploads/2013/06/Screen-shot-2013-06-30-at-4.22.35-PM.png"
+                            alt="Alive_Campus">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 7 -->
+        <div class="modal fade" id="exampleModal7" tabindex="-7" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="http://tranceattack.net/wordpress/wp-content/uploads/2017/09/Above-Beyond-live-at-Group-Therapy-250-16.09.2017-@-The-George-Amphitheatre-Washington-State-USA.jpg"
+                            alt="Alive_Campus">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
